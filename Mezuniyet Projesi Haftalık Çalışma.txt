@@ -1,0 +1,2 @@
+
+1.Hafta: php,composer,laravel kurulumunu yaptım. Master page(header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
