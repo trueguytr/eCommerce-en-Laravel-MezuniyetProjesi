@@ -24,6 +24,23 @@
             height: 20%;
             padding-top: 10%;
         }
+        img.slider-img{
+            height: 300px; 
+            margin-left: 50px;
+            margin-right: 50px;     
+        }
+        .custom-product{
+            height: 600px;
+            text-align: center;
+            color: rgb(10, 105, 214);
+        }
+        .trend-image{
+            height: 100px;
+        }
+        .trend-item{
+            float: left;
+            width: 20%;
+        }
     </style>
 </body>
 </html>

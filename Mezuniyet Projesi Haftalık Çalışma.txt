@@ -1,5 +1,6 @@
 1.Hafta:
--php,composer,laravel kurulumunu yaptım. Master page(header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
+-php,composer,laravel kurulumunu yaptım.
+-Master page(header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
 
 2.Hafta:
 -Xampp yardımıyla veritabanı oluşturulup projeyle bağlantısı sağlandı. Migration ile veritabanı tablosu ekledim, seeding ile de verileri 
@@ -7,3 +8,10 @@ veritabanı yoluyla ekledim.
 -Login yaparken veritabanı ile eşleşmesi lazım eşleşmezse uyarı alır, tekrar girmesi gerekir.
 -Giriş yaptıktan sonra ürün sayfasına yönlediriliyor.
 -Login sayfasında oturum tamamlama özelliği ile bir kere giriş yaptıktan sonra tekrar login sayfasına giriş yapılamıyor.
+
+3.Hafta:
+-Products table veritabanına migrate edilip seeding ile ürünleri veritabanı tablosuna aktardım.
+-Ürün verileri veritabanından alınıp anasayfada kullanılıyor.
+-Anasayfada carousel yapısı var, ürünler kayar şekilde gözüküyor.
+-Trend ürünler kısmını ekledim.
+-CSS kodları kullandım.
