@@ -1,6 +1,6 @@
 1.Hafta:
 -php,composer,laravel kurulumunu yaptım.
--Master page(header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
+-Master page (header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
 
 2.Hafta:
 -Xampp yardımıyla veritabanı oluşturulup projeyle bağlantısı sağlandı. Migration ile veritabanı tablosu ekledim, seeding ile de verileri 
@@ -15,3 +15,11 @@ veritabanı yoluyla ekledim.
 -Anasayfada carousel yapısı var, ürünler kayar şekilde gözüküyor.
 -Trend ürünler kısmını ekledim.
 -CSS kodları kullandım.
+
+4.Hafta:
+-Product detail page (ürün detay sayfası) ve search page (arama sayfası) için controller, route ve view bağlantılarını yaptım.
+-Bu iki sayfa için view (görünüm) oluşturdum. Css kodu da eklendi.
+-Ürünlere tıklandığında ürün detay sayfasına yönlendiriliyor.
+-Search kısmında arama yaparsak ürünleri (filtreli) search page'de görebiliyoruz.
+-Veriler veritabanından çekiliyor.
+-Add to Cart (Sepete Ekle) ve Buy Now (Satın Al) butonları eklendi.

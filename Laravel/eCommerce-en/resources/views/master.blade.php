@@ -41,6 +41,12 @@
             float: left;
             width: 20%;
         }
+        .detail-img{
+            height: 250px;
+        }
+        .search-box{
+            width: 400px !important;
+        }
     </style>
 </body>
 </html>
