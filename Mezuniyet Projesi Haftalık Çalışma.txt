@@ -18,7 +18,7 @@ veritabanı yoluyla ekledim.
 
 4.Hafta:
 -Product detail page (ürün detay sayfası) ve search page (arama sayfası) için controller, route ve view bağlantılarını yaptım.
--Bu iki sayfa için view (görünüm) oluşturdum. Css kodu da eklendi.
+-Bu iki sayfa için view (görünüm) oluşturdum. CSS kodu da eklendi.
 -Ürünlere tıklandığında ürün detay sayfasına yönlendiriliyor.
 -Search kısmında arama yaparsak ürünleri (filtreli) search page'de görebiliyoruz.
 -Veriler veritabanından çekiliyor.
