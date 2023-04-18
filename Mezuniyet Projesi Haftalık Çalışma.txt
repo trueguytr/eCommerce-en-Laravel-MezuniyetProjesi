@@ -31,5 +31,4 @@ veritabanı yoluyla ekledim.
 -Cart yapısı, user ve product verileri ile birlikte kullanılıyor.
 -Add to Cart fonksiyonu için eğer kullanıcı login (giriş) yaptıysa ve ürün için Add to Cart yaptıysa veriler (ürün) cart table içerisine
 kaydedilir. Login yapılmadan Add to Cart yaparsak login sayfasına yönlendirir ve giriş yapmamızı ister.
--Sepette sayaç fonksiyonu kullandım. Bu sayade hesabı login olan kullanıcılar sepete ürün eklediğinde header kısmında sayı olarak ürün adedi
-gözükecek.
+-Sepette sayaç fonksiyonu kullandım. Bu sayade hesabı login olan kullanıcılar sepete ürün eklediğinde header kısmında sayı olarak ürün adedi gözükecek.
