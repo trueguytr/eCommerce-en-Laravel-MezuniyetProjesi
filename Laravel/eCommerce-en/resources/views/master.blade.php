@@ -30,7 +30,7 @@
             margin-right: 50px;     
         }
         .custom-product{
-            height: 600px;
+            height: 100%;
             text-align: center;
             color: rgb(10, 105, 214);
         }
@@ -46,6 +46,11 @@
         }
         .search-box{
             width: 400px !important;
+        }
+        .cart-list-divider{
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
         }
     </style>
 </body>
