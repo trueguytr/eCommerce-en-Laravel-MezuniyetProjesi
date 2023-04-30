@@ -1,8 +1,9 @@
 @extends("master")
 @section("content")
 <div class="custom-product">
-    <div class="searched col-sm-4">
-    <h4>Result for Products</h4>
+    <div class="searched col-sm-10">
+        <h4>Result for Products</h4>
+        <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br> 
         @foreach ($products as $item)
         <div class="row searched-item cart-list-divider">
             <div class="col-sm-3">
@@ -21,6 +22,7 @@
             </div>
         </div>
         @endforeach 
+        <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br> 
     </div>
 </div>
 @endsection

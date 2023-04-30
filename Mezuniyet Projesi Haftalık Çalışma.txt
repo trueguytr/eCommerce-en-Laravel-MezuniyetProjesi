@@ -1,31 +1,31 @@
 1.Hafta:
 -php,composer,laravel kurulumunu yaptım.
--Master page (header, footer), login form kodlayarak login sayfasını oluşturmuş oldum.
+-Master Page (header, footer), login form kodlayarak Login Sayfası'nı oluşturmuş oldum.
 
 2.Hafta:
--Xampp yardımıyla veritabanı oluşturulup projeyle bağlantısı sağlandı. Migration ile veritabanı tablosu ekledim, seeding ile de verileri 
-veritabanı yoluyla ekledim. 
+-Xampp yardımıyla veritabanı oluşturulup projeyle bağlantısı sağlandı. Migration ile users tablosu oluşturup gerekli alanlar ekledikten sonra 
+veritabanına migrate yaptım, seeding ile de verileri veritabanı yoluyla ekledim. 
 -Login yaparken veritabanı ile eşleşmesi lazım eşleşmezse uyarı alır, tekrar girmesi gerekir.
 -Giriş yaptıktan sonra ürün sayfasına yönlediriliyor.
 -Login sayfasında oturum tamamlama özelliği ile bir kere giriş yaptıktan sonra tekrar login sayfasına giriş yapılamıyor.
 
 3.Hafta:
--Products table veritabanına migrate edilip seeding ile ürünleri veritabanı tablosuna aktardım.
+-products table veritabanına migrate edilip seeding ile ürünleri veritabanı tablosuna aktardım.
 -Ürün verileri veritabanından alınıp anasayfada kullanılıyor.
--Anasayfada carousel yapısı var, ürünler kayar şekilde gözüküyor.
+-Ana sayfada carousel yapısı var, ürünler kayar şekilde gözüküyor.
 -Trend ürünler kısmını ekledim.
 -CSS kodları kullandım.
 
 4.Hafta:
--Product detail page (ürün detay sayfası) ve search page (arama sayfası) için controller, route ve view bağlantılarını yaptım.
+-Product Detail Page (Ürün Detay Sayfası) ve Search Page (Arama Sayfası) için controller, route ve view bağlantılarını yaptım.
 -Bu iki sayfa için view (görünüm) oluşturdum. CSS kodu da eklendi.
 -Ürünlere tıklandığında ürün detay sayfasına yönlendiriliyor.
--Search kısmında arama yaparsak ürünleri (filtreli) search page'de görebiliyoruz.
+-Search kısmında arama yaparsak ürünleri (filtreli) Search Page'de görebiliyoruz.
 -Veriler veritabanından çekiliyor.
 -Add to Cart (Sepete Ekle) ve Buy Now (Satın Al) butonları eklendi.
 
 5.Hafta: 
--Cart (alışveriş sepeti) tablosu migrate edildi.
+-cart (alışveriş sepeti) tablosu veritabanına migrate edildi.
 -Detay sayfasındaki Add to Cart için form oluşturdum.
 -Cart (sepet) etkileşimi için route ve model yaptım.
 -Cart yapısı, user ve product verileri ile birlikte kullanılıyor.
@@ -37,8 +37,18 @@ kaydedilir. Login yapılmadan Add to Cart yaparsak login sayfasına yönlendirir
 -Login ve logout menüleri yapıldı.
 -Logout için route yapıldı. (Kullanıcı çıkış yaptığında veritabanından oturum silinecek ve login sayfasına yönlendirilecek)
 -Kullanıcı giriş yaptığında kullanıcı ismi gözükecek.
--Cart List (Sepet Listesi) sayfası için route, function ve view (görünüm) yapıldı. (Sepetteki ürünler kullanıcılara aittir)
+-Cart List Page (Sepet Listesi Sayfası) için route, controller ve view yapıldı. (Sepetteki ürünler kullanıcılara aittir)
 -Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor.
 -Bazı CSS kodları eklendi. (HTML kodları da her zamanki gibi eklendi)
 -Remove From Cart (Sepetten Kaldır) için route, function yapıldı. Bu sayede sepetten ve veritabanından veriler (ürünler) kaldırılır.
 -DB'deki cart table içerisindeki id kullanılarak ürün kaldırılır sonra tekrar cart list sayfasına yönlendirilir.
+
+7.Hafta:
+-Order Now butonları eklendi.
+-Order Now Page (Şimdi Sipariş Ver Sayfası) için route, controller ve view yapıldı.
+-orderNow fonksiyonu, ordernow sayfasına ürünlerin toplam tutarını getirir.
+-Order Now Page'de sepetteki ürünlerin Amount (Tutar), Tax (Vergi), Delivery (Teslimat Ücreti) ve bunların toplamı Total Amount (Toplam Tutar) yapısını yaptım.
+Adres alanı ve Payment Method (Ödeme Yöntemi) form olarak eklendi. Hem bu form hem de diğer sipariş bilgileri ile route, controller oluşturdum.
+-orders table oluşturulup veritabanına migrate edildi. Bunun amacı gerekli bilgilerin (user_id, payment_method, address, status gibi bilgiler) kaydedilmesi içindir.
+-orders table için model oluşturuldu.
+-orderPlace fonksiyonu, sipariş verilerini orders tablosuna kaydeder, cart tablosundaki verileri siler ve Ana Sayfaya yönlendirir.

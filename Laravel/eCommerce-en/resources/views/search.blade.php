@@ -5,7 +5,7 @@
         <a href="#">Filter</a>
     </div>
     <div class="searched">
-    <h4>Result for Products</h4>
+        <h4>Result for Products</h4>
         @foreach ($products as $item)
         <div class="searched-item"> 
             <a href="detail/{{$item['id']}}">
