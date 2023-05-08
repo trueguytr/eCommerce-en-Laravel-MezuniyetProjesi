@@ -38,7 +38,7 @@ kaydedilir. Login yapılmadan Add to Cart yaparsak login sayfasına yönlendirir
 -Logout için route yapıldı. (Kullanıcı çıkış yaptığında veritabanından oturum silinecek ve login sayfasına yönlendirilecek)
 -Kullanıcı giriş yaptığında kullanıcı ismi gözükecek.
 -Cart List Page (Sepet Listesi Sayfası) için route, controller ve view yapıldı. (Sepetteki ürünler kullanıcılara aittir)
--Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor.
+-Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor. (orderNow fonksiyonu)
 -Bazı CSS kodları eklendi. (HTML kodları da her zamanki gibi eklendi)
 -Remove From Cart (Sepetten Kaldır) için route, function yapıldı. Bu sayede sepetten ve veritabanından veriler (ürünler) kaldırılır.
 -DB'deki cart table içerisindeki id kullanılarak ürün kaldırılır sonra tekrar cart list sayfasına yönlendirilir.
@@ -52,3 +52,8 @@ Adres alanı ve Payment Method (Ödeme Yöntemi) form olarak eklendi. Hem bu for
 -orders table oluşturulup veritabanına migrate edildi. Bunun amacı gerekli bilgilerin (user_id, payment_method, address, status gibi bilgiler) kaydedilmesi içindir.
 -orders table için model oluşturuldu.
 -orderPlace fonksiyonu, sipariş verilerini orders tablosuna kaydeder, cart tablosundaki verileri siler ve Ana Sayfaya yönlendirir.
+
+8.Hafta:
+-header kısmındaki Orders linki myorders sayfasına yönlendirir.
+-My Orders Page (Siparişlerim Sayfası) için route, controller ve view yapıldı.
+-Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor. (myOrders fonksiyonu)
