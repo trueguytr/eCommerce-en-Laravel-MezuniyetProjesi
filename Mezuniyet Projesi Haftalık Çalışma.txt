@@ -1,6 +1,7 @@
 1.Hafta:
 -php,composer,laravel kurulumunu yaptım.
 -Master Page (header, footer), login form kodlayarak Login Sayfası'nı oluşturmuş oldum.
+-Login Page (Giriş Yapma Sayfası) için route, function, controller ve view yapıldı.
 
 2.Hafta:
 -Xampp yardımıyla veritabanı oluşturulup projeyle bağlantısı sağlandı. Migration ile users tablosu oluşturup gerekli alanlar ekledikten sonra 
@@ -35,7 +36,7 @@ kaydedilir. Login yapılmadan Add to Cart yaparsak login sayfasına yönlendirir
 
 6.Hafta:
 -Login ve logout menüleri yapıldı.
--Logout için route yapıldı. (Kullanıcı çıkış yaptığında veritabanından oturum silinecek ve login sayfasına yönlendirilecek)
+-Logout için route ve function yapıldı. (Kullanıcı çıkış yaptığında veritabanından oturum silinecek ve login sayfasına yönlendirilecek)
 -Kullanıcı giriş yaptığında kullanıcı ismi gözükecek.
 -Cart List Page (Sepet Listesi Sayfası) için route, controller ve view yapıldı. (Sepetteki ürünler kullanıcılara aittir)
 -Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor. (orderNow fonksiyonu)
@@ -57,3 +58,10 @@ Adres alanı ve Payment Method (Ödeme Yöntemi) form olarak eklendi. Hem bu for
 -header kısmındaki Orders linki myorders sayfasına yönlendirir.
 -My Orders Page (Siparişlerim Sayfası) için route, controller ve view yapıldı.
 -Veritabanından veriler join yardımıyla birleştirilip alınıyor, bu veriler görünüme aktarılıyor. (myOrders fonksiyonu)
+
+9.Hafta:
+-header kısmına Register menüsü eklendi, register sayfasına yönlendirir.
+-Register Page (Kayıt Olma Sayfası) için route, controller ve view yapıldı.
+-register sayfasında kayıt olmak için HTML Form eklendi.
+-register fonksiyonu, formdan alınan verileri veritabanına (users table) kaydeder ve kullanıcı siteye kaydolur. Kayıt yaptıktan sonra login sayfasına yönlendirir.
+(Password verisi, hash fonksiyonu ile encrypted (şifreli) hale getirildi)
