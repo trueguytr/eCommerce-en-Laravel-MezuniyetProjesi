@@ -69,4 +69,4 @@ Adres alanı ve Payment Method (Ödeme Yöntemi) form olarak eklendi. Hem bu for
 10.Hafta:
 -Bazı hatalar düzeltildi.
 -CSS kodları eklendi.
--Proje hedefleri tamamlandı ve genel test yapıldı.
+-Proje tamamlandı ve genel test yapıldı.
