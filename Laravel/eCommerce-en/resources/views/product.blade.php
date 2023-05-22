@@ -32,7 +32,8 @@
         </a>
       </div>
       <div class="trend">
-        <h3>Trending Products</h3>
+        <hr>
+        <h3 style="padding-bottom: 30px;">Trending Products</h3>
         @foreach ($products as $item)
         <div class="trend-item"> 
             <a href="detail/{{$item['id']}}">

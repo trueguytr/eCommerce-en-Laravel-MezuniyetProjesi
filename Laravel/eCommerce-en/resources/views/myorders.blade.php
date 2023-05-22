@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-6">
                     <div class="">
-                      <h2>Name : {{$item->name}}</h2>
+                      <h3>Name : {{$item->name}}</h3>
                       <h5>Delivery Status : {{$item->status}}</h5>
                       <h5>Address : {{$item->address}}</h5>
                       <h5>Payment Status : {{$item->payment_status}}</h5>

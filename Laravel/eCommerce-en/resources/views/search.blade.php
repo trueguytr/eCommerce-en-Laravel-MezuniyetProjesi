@@ -6,15 +6,17 @@
     </div>
     <div class="searched">
         <h4>Result for Products</h4>
+        <hr>
         @foreach ($products as $item)
         <div class="searched-item"> 
             <a href="detail/{{$item['id']}}">
             <img src="{{$item['gallery']}}" class="trend-image" alt="Image errors"> 
             <div class="">
-              <h2>{{$item['name']}}</h2>
-              <h5>{{$item['description']}}</h5>
+              <h4>{{$item['name']}}</h4>
+              <h6>{{$item['description']}}</h6>
             </div>
             </a>
+            <hr>
         </div>
         @endforeach 
     </div>

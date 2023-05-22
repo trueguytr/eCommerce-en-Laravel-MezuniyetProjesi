@@ -65,3 +65,8 @@ Adres alanı ve Payment Method (Ödeme Yöntemi) form olarak eklendi. Hem bu for
 -register sayfasında kayıt olmak için HTML Form eklendi.
 -register fonksiyonu, formdan alınan verileri veritabanına (users table) kaydeder ve kullanıcı siteye kaydolur. Kayıt yaptıktan sonra login sayfasına yönlendirir.
 (Password verisi, hash fonksiyonu ile encrypted (şifreli) hale getirildi)
+
+10.Hafta:
+-Bazı hatalar düzeltildi.
+-CSS kodları eklendi.
+-Proje hedefleri tamamlandı ve genel test yapıldı.

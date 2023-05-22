@@ -26,13 +26,19 @@
         }
         img.slider-img{
             height: 300px; 
-            margin-left: 50px;
-            margin-right: 50px;     
+            margin-left: auto;
+            margin-right: auto;     
         }
         .custom-product{
             height: 100%;
             text-align: center;
             color: rgb(10, 105, 214);
+        }
+        .carousel{
+            height: 420px;
+        }
+        .carousel-indicators{
+            
         }
         .trend-image{
             height: 100px;
@@ -41,8 +47,20 @@
             float: left;
             width: 20%;
         }
+        .detail-page{
+            margin-top: 30px;
+            height: 100%;
+            width: 100%;
+        }
         .detail-img{
             height: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .detail{
+            height: 100%;
+            color: rgb(10, 105, 214);
         }
         .search-box{
             width: 400px !important;
